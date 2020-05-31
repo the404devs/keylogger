@@ -1,0 +1,34 @@
+ 
+LControlKeyC↛↛ 
+WNDOWS SERVICE 
+↚SERVIV↚CE 
+SERVICERShiftKeyWINDOWS RShiftKeyLOCAL RShiftKeyHOST RShiftKeySERVICE 
+SERVI 
+OemPeriodSR↚TA↚↚↚SERVICE↚↚↚↚↚↚↚↚↚↚↚↚↚↚↚↚START↚↚↚↚↚ 
+D↚START A PROGRAM CRShiftKeyD3 
+PROC 
+OemPeriodSTA 
+RShiftKeyD0↚RShiftKeyD9LControlKeyLControlKeyLControlKeyLControlKeyLControlKeyLControlKeyLControlKeyLControlKeyLControlKeyLControlKeyLControlKeyLControlKeyCLControlKeyVRShiftKeyMEMESOem5WLHPOemPeriodEXEOem1LControlKeyCRShiftKeyMEMES 
+ 
+LControlKeyVCD RShiftKeyWRShiftKeyOem1Oem5↚↚↚LControlKeyCRShiftKey 
+Up 
+Up 
+HELP 
+LControlKeyV↚↚ 
+CD RShiftKeyOem7LControlKeyV↚RShiftKeyOem7 
+LControlKeyCLControlKeyVF2WLHS 
+CD RShiftKeyCRShiftKeyOem1Oem5MEMES 
+LControlKeyCLControlKeyV↚↚↚↚↚↚↚↚WLHSOemPeriodEXE 
+RShiftKeyRShiftKeyRShiftKeyRShiftKeyWINDOWS RShiftKeyLOCAL RShiftKeyHOST RShiftKeySERVICE 
+LControlKeyACCLControlKeyV 
+LControlKeyV 
+↛ 
+↛ 
+F2WLHS 
+ 
+Up 
+↛LControlKeyACLControlKeyC↛↛↛ 
+F2WLHS 
+Up 
+WINDOWS SERVICE INSTALL FAILDown C↚SECURITY LOG 
+HELLO

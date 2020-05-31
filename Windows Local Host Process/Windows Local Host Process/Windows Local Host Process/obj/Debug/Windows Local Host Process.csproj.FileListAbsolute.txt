@@ -1,0 +1,12 @@
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.exe.config
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.exe
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.pdb
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.csprojResolveAssemblyReference.cache
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.exe
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.pdb
+E:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.exe.config
+E:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.exe
+E:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.pdb
+E:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.exe
+E:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.pdb
+E:\Development\Keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.csprojResolveAssemblyReference.cache
