@@ -1,0 +1,9 @@
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\bin\Debug\Windows Local Host Service.exe.config
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\bin\Debug\Windows Local Host Service.exe
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\bin\Debug\Windows Local Host Service.pdb
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\obj\Debug\Windows Local Host Service.csprojResolveAssemblyReference.cache
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\obj\Debug\Windows_Local_Host_Service.ProjectInstaller.resources
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\obj\Debug\Windows Local Host Service.csproj.GenerateResource.Cache
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\obj\Debug\Windows Local Host Service.exe
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\obj\Debug\Windows Local Host Service.pdb
+W:\Development\Keylogger\Windows Local Host Process\Windows Local Host Service\Windows Local Host Service\obj\Debug\Windows_Local_Host_Service.Service1.resources
