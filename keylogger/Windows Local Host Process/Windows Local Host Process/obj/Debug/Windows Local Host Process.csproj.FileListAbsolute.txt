@@ -17,3 +17,10 @@ E:\ics-git\legacy\keylogger\Windows Local Host Process\Windows Local Host Proces
 E:\ics-git\legacy\keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.csproj.CoreCompileInputs.cache
 E:\ics-git\legacy\keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.exe
 E:\ics-git\legacy\keylogger\Windows Local Host Process\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.pdb
+E:\ics-git\legacy\keylogger\keylogger\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.exe.config
+E:\ics-git\legacy\keylogger\keylogger\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.exe
+E:\ics-git\legacy\keylogger\keylogger\Windows Local Host Process\Windows Local Host Process\bin\Debug\Windows Local Host Process.pdb
+E:\ics-git\legacy\keylogger\keylogger\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.csprojAssemblyReference.cache
+E:\ics-git\legacy\keylogger\keylogger\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.csproj.CoreCompileInputs.cache
+E:\ics-git\legacy\keylogger\keylogger\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.exe
+E:\ics-git\legacy\keylogger\keylogger\Windows Local Host Process\Windows Local Host Process\obj\Debug\Windows Local Host Process.pdb

